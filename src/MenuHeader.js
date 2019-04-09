@@ -36,7 +36,7 @@ class MenuHeaderJede extends Component {
                             <span className="letter" data-letter="N">N</span>
                             <span className="letter" data-letter="Y">Y</span>
                         </div>
-                        <div className="bnt-jede-main"> <a href="#download" className="bnt-jede-main-a btn btn-outline btn-xl js-scroll-trigger">Nie chcę być przeciętny!</a></div>
+                        <div className="bnt-jede-main"><a href="#endclass" className="btn btn-outline btn-xl js-scroll-trigger">Nie chcę być przeciętny!</a></div>
                   
               
 </div>

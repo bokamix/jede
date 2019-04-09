@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MenuHeaderJede from './MenuHeader.js'
 import PortfolioEl from './PortfolioCatalog.js'
+import Containersecond from './containersecond.js'
 
 class App extends Component {
   render() {
@@ -11,7 +12,11 @@ class App extends Component {
        
        <div className="container">
          <MenuHeaderJede />
+       <Containersecond />
         <PortfolioEl />
+        <PortfolioEl />
+        <PortfolioEl />
+        <div id="endclass" />
        
         </div>
       </div>
