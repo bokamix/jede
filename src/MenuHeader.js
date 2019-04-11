@@ -14,7 +14,7 @@ class MenuHeaderJede extends Component {
 
                         
                             <div className="jede-image-logo" />
-                            <h2 className="text-center jede-head-style-h2">WIĘKSZOŚĆ PRZEDSIĘBIORCÓW NIE ZARABIA TYLE, ILE CHCE, BO SĄ PRZECIĘTNI</h2>
+                            <h3 className="h3section">WIĘKSZOŚĆ PRZEDSIĘBIORCÓW NIE ZARABIA TYLE, ILE CHCE, BO SĄ PRZECIĘTNI</h3>
                     <div className="foojede">
                             <span className="letter" data-letter="N">N</span>
                             <span className="letter" data-letter="I">I</span>
