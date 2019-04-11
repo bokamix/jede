@@ -24,10 +24,10 @@ class PortfolioEl extends Component {
         <div className="containerportfolio m-5 pb-5"> 
         
        
-  
-        <a href="#modal1"><div   className="itemcatalog"><CardPort name={"JaniakSklep"} ahref={janiakmeble} projekt={"Jede"} /></div></a>
-        <a href="#modal2"> <div   className="itemcatalog"><CardPort name={"SPP"} ahref={spp} projekt={"Jede"} /></div></a>
-        <a href="#modal3"><div   className="itemcatalog"><CardPort name={"Most"} ahref={moststudio} projekt={"Jede.pl"} /></div></a>
+
+        <a onClick={bodyChanger} href="#modal1"><div   className="itemcatalog"><CardPort name={"JaniakSklep"} ahref={janiakmeble} projekt={"Jede"} /></div></a>
+        <a onClick={bodyChanger} href="#modal2"> <div   className="itemcatalog"><CardPort name={"SPP"} ahref={spp} projekt={"Jede"} /></div></a>
+        <a onClick={bodyChanger} href="#modal3"><div   className="itemcatalog"><CardPort name={"Most"} ahref={moststudio} projekt={"Jede.pl"} /></div></a>
         <div className="itemcatalog"><CardPort name={"Food Aviator"} ahref={moststudio} projekt={"Jede.pl"} /></div>
         <div className="itemcatalog"><CardPort name={"kagufurniture"} ahref={moststudio} projekt={"Jede.pl"} /></div>
         <div className="itemcatalog"><CardPort name={"sakrosleep"} ahref={moststudio} projekt={"Jede.pl"} /></div>
@@ -42,7 +42,13 @@ class PortfolioEl extends Component {
   }
 }
 
-
+    
+        
+        function bodyChanger()
+    {
+    var bodytake = document.getElementsByTagName("BODY")[0].style.overflow = "hidden";
+    }
+   
 
 
 

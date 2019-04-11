@@ -4,7 +4,7 @@ class ModalPortfolio extends Component {
   render() {
     return (
      
-    <div className="ma"id={this.props.modalid} ><a href="#containerportfolioid">Close</a>{this.props.modaltext}
+    <div className="ma"id={this.props.modalid} ><a class="close" onClick={bodyChanger2} href="#containerportfolioid"></a>{this.props.modaltext}
         <img className="modealimg" src={this.props.ahref} alt="Portfolio"  />
         
         </div>
@@ -13,7 +13,10 @@ class ModalPortfolio extends Component {
     );
   }
 }
-
+      function bodyChanger2()
+    {
+    var bodytake = document.getElementsByTagName("BODY")[0].style.overflow = "auto";
+    }
 
 
 
