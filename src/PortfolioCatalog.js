@@ -46,7 +46,10 @@ class PortfolioEl extends Component {
         
         function bodyChanger()
     {
-    var bodytake = document.getElementsByTagName("BODY")[0].style.overflow = "hidden";
+    document.getElementsByTagName("BODY")[0].style.overflow = "hidden";
+    document.getElementById("modal1").style.overflow = "auto";
+    document.getElementById("modal2").style.overflow = "auto";
+    document.getElementById("modal3").style.overflow = "auto";
     }
    
 

@@ -15,8 +15,8 @@ class App extends Component {
     return (
       <div className="App">
         <ModalPortfolio modalid={"modal1"} modaltextheader={"Janiak Meble"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} ahref={janiakmeble}/>     
-        <ModalPortfolio modalid={"modal2"} modaltextheader={"SPP"} ahref={spp} />     
-        <ModalPortfolio modalid={"modal3"} modaltextheader={"Most"} ahref={moststudio} />   
+        <ModalPortfolio modalid={"modal2"} modaltextheader={"SPP"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} ahref={spp} />     
+        <ModalPortfolio modalid={"modal3"} modaltextheader={"Most"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} ahref={moststudio} />   
        <div className="container">
          <MenuHeaderJede />
        <Containersecond />
