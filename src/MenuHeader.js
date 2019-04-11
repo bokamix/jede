@@ -18,7 +18,7 @@ class MenuHeaderJede extends Component {
                     <div className="foojede">
                             <span className="letter" data-letter="N">N</span>
                             <span className="letter" data-letter="I">I</span>
-                            <span className="letter" data-letter="E">E</span>
+                            <span className="letter letterheadere" data-letter="E">E</span>
                             <span className="letter" data-letter=""></span>
                             <span className="letter" data-letter="B">B</span>
                             <span className="letter" data-letter="Ą">Ą</span>
@@ -36,7 +36,7 @@ class MenuHeaderJede extends Component {
                             <span className="letter" data-letter="N">N</span>
                             <span className="letter" data-letter="Y">Y</span>
                         </div>
-                        <div className="bnt-jede-main"><a href="#endclass" className="btn btn-outline btn-xl js-scroll-trigger">Nie chcę być przeciętny!</a></div>
+                        <div className="bnt-jede-main"><a href="#containersecond" className="btn btn-outline btn-xl js-scroll-trigger">Nie chcę być przeciętny!</a></div>
                   
               
 </div>
