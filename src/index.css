@@ -524,6 +524,22 @@ input[type=checkbox] {
 #modal3:target {
   display: block;
   }
+
+#modal4:target {
+  display: block;
+  }
+
+#modal5:target {
+  display: block;
+  }
+
+#modal7:target {
+  display: block;
+  }
+
+#modal4:target {
+  display: block;
+  }
 [id^=modal] a {
   float: right;
   }
@@ -532,7 +548,7 @@ input[type=checkbox] {
 {width: 80%;}
 
 .close {
-  position: absolute;
+  position: fixed;
   right: 32px;
   top: 32px;
   width: 32px;
@@ -540,8 +556,25 @@ input[type=checkbox] {
   opacity: 0.3;
     background: white;
 }
+
+.showmobile {
+  position: absolute;
+  left: 25px;
+  top: 23px;
+  width:55px;
+  height: 32px;
+  opacity: 0.5;
+  background: white;
+}
+.showmobile:hover {
+  position: absolute;
+  
+  opacity: 0.7;
+  background: white;
+}
+
 .close:hover {
-  opacity: 1;
+    opacity: 1;
 }
 .close:before, .close:after {
   position: absolute;
@@ -560,3 +593,25 @@ input[type=checkbox] {
 .text-black 
 {color:black;}
 
+
+.imgportfolio1
+{
+ height: 2012px;
+ margin-left: auto; margin-right: auto;
+ background-position:center top;
+ background-repeat: no-repeat;
+ background-image: url(projekty/wynajemostrow.jpg);
+    background-size: contain;
+
+}
+
+.imgportfoliomobile1 {
+background-image: url(projekty/wynajemostrow-mobile.jpg);
+     height: 2386px;
+    margin-left: auto; margin-right: auto;
+    background-position: center top;
+background-repeat: no-repeat;
+    padding-left: auto;padding-right: auto;
+      background-size: contain;
+    
+  }

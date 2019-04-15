@@ -3,7 +3,10 @@ import CardPort from './cardportfolio.js';
 
 import janiakmeble from './projekty/janiaksklep.png'
 import spp from './projekty/sppagency.jpg'
+import wynajemostrow from './projekty/wynajemostrow.jpg'
 import moststudio from './projekty/moststudio.jpg'
+import sakrosleep from './projekty/sakrosleep.png'
+
 class PortfolioEl extends Component {
   render() {
       
@@ -25,10 +28,12 @@ class PortfolioEl extends Component {
         
        
 
-        <a onClick={bodyChanger} href="#modal1"><div   className="itemcatalog"><CardPort name={"JaniakSklep"} ahref={janiakmeble} projekt={"Jede"} /></div></a>
-        <a onClick={bodyChanger} href="#modal2"> <div   className="itemcatalog"><CardPort name={"SPP"} ahref={spp} projekt={"Jede"} /></div></a>
-        <a onClick={bodyChanger} href="#modal3"><div   className="itemcatalog"><CardPort name={"Most"} ahref={moststudio} projekt={"Jede.pl"} /></div></a>
-        <div className="itemcatalog"><CardPort name={"Food Aviator"} ahref={moststudio} projekt={"Jede.pl"} /></div>
+        <a onClick={bodyChanger} href="#modal1"><div className="itemcatalog"><CardPort name={"JaniakSklep"} ahref={janiakmeble} projekt={"Jede"} /></div></a>
+        <a onClick={bodyChanger} href="#modal2"> <div className="itemcatalog"><CardPort name={"SPP"} ahref={spp} projekt={"Jede"} /></div></a>
+        <a onClick={bodyChanger} href="#modal3"><div className="itemcatalog"><CardPort name={"Most"} ahref={moststudio} projekt={"Jede.pl"} /></div></a>
+        <a onClick={bodyChanger} href="#modal4"><div className="itemcatalog"><CardPort name={"Wynajem ostrów"} ahref={wynajemostrow} projekt={"wynajem"} /></div></a>
+        <a onClick={bodyChanger} href="#modal5"><div className="itemcatalog"><CardPort name={"sakrosleep"} ahref={sakrosleep} projekt={"Sakro Sleep"} /></div></a>
+        
         <div className="itemcatalog"><CardPort name={"kagufurniture"} ahref={moststudio} projekt={"Jede.pl"} /></div>
         <div className="itemcatalog"><CardPort name={"sakrosleep"} ahref={moststudio} projekt={"Jede.pl"} /></div>
         <div className="itemcatalog"><CardPort name={"wynajem ostrów"} ahref={moststudio} projekt={"Jede.pl"} /></div>
@@ -50,6 +55,7 @@ class PortfolioEl extends Component {
     document.getElementById("modal1").style.overflow = "auto";
     document.getElementById("modal2").style.overflow = "auto";
     document.getElementById("modal3").style.overflow = "auto";
+    document.getElementById("modal4").style.overflow = "auto";
     }
    
 
