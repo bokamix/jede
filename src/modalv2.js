@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
 
 
-class ModalPortfolio2 extends Component {
+class ModalPortfolio3 extends Component {
  
     state ={
         
-        isSwitchOn:false,
+        isSwitchOn:true,
+        projectImgSpec:this.props.projectimgspec,
+        projectImgSpecm:this.props.projectimgspecm,
+  
         
     }
     
     render() {
         const isOn = this.state.isSwitchOn;
+        const projectImgSpec =this.state.projectImgSpec;
+        const projectImgSpecm =this.state.projectImgSpecm;
   
     return (
      
@@ -18,8 +23,8 @@ class ModalPortfolio2 extends Component {
        
     <div className="ma modal-text-div"><h2 className="h2section">{this.props.modaltextheader}</h2>
         <p className="psection">{this.props.modaltext}</p></div>
-        <div className={isOn ? "imgportfolio1" : "imgportfoliomobile1"} alt="Portfolio" id={this.props.modalidimg} />
-          <button onClick={() => this.setState({isSwitchOn: !isOn})}class="showmobile">{isOn ? 'mobile' : 'dyskop'}</button>
+        <div className={isOn ? projectImgSpec : projectImgSpecm} alt="Portfolio" id={this.props.modalidimg} />
+          <button onClick={() => this.setState({isSwitchOn: !isOn})}className="showmobile">{isOn ? 'mobile' : 'dyskop'}</button>
         </div>
    
   
@@ -34,4 +39,4 @@ class ModalPortfolio2 extends Component {
 
 
 
-export default ModalPortfolio2;
+export default ModalPortfolio3;

@@ -10,8 +10,8 @@ class ContactForm extends Component {
 
        <div className="containercenter m-5"> 
         
-        <h2 className="h2section">Skontaktuj się ze mna za pomocą mojego bota w messengerze </h2>
-        <h3>lub przez mój profil LinkedIn.</h3>
+        <h3 className="h2section">Skontaktuj się ze mna za pomocą mojego bota w messengerze </h3>
+        <h4>lub przez mój profil LinkedIn.</h4>
 
         
         </div>

@@ -37,32 +37,41 @@ code {
     background-size: cover;
 }
 
-.h3section
-{padding-left: 10px; padding-right: 10px;
+.h3section {
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 15px;
-margin-top: 5px;margin-bottom: 5px;
-    
-    
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
 }
-.h2section 
-{font-size: 25px;
-margin-top: 5px;margin-bottom: 5px;}
 
-.containerportfoliomain h2
-{font-size: 3vw;}
+.h2section {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
-.psection
-{font-size: 13px;
-margin-top: 10px;
-margin-bottom: 30px;
-padding-right: 15px;
-    padding-left: 15px;}
+.containerportfoliomain h2 {
+    font-size: 3vw;
+}
 
-.modal-text-div
-{width: 80%}
+.psection {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
-.letterheadere
-{margin-right:1%;}
+.modal-text-div {
+    width: 80%
+}
+
+.letterheadere {
+    margin-right: 1%;
+}
 
 
 
@@ -118,127 +127,144 @@ padding-right: 15px;
 
 
 
-@media (min-width: 321px){
-   .h3section
-{padding-left: 30px; padding-right: 30px;
-    font-size: 20px;
-margin-top: 5px;margin-bottom: 5px;
-    
-}
-    
-    .h2section 
-{font-size: 30px;
-margin-top: 5px;margin-bottom: 5px;
-    padding-left: 10px;padding-right: 10px;}
-    .psection
-{font-size: 17px;
-margin-top: 10px;
-margin-bottom: 30px;
-padding-right: 15px;
-    padding-left: 15px;}
-    
-     .modal-text-div
-    {width: 80%;}
-    
+@media (min-width: 321px) {
+    .h3section {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .h2section {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .psection {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .modal-text-div {
+        width: 80%;
+    }
+
     .jede-image-logo {
 
-    background-image: url(logojededesign.png);
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: cover;
-}
-    
-    
+        background-image: url(logojededesign.png);
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+    }
+
+
     .letter {
-    display: inline-block;
-    font-weight: 900;
-    font-size: 2.80em;
-    margin: 0.05em;
-    position: relative;
-    color: #57ffdb;
-    transform-style: preserve-3d;
-    perspective: 400;
-    z-index: 1;
+        display: inline-block;
+        font-weight: 900;
+        font-size: 2.80em;
+        margin: 0.05em;
+        position: relative;
+        color: #57ffdb;
+        transform-style: preserve-3d;
+        perspective: 400;
+        z-index: 1;
+    }
+
+    .letter:before,
+    .letter:after {
+        position: absolute;
+        content: attr(data-letter);
+        transform-origin: top left;
+        top: 0;
+        left: 0;
+    }
+
+    .letter,
+    .letter:before,
+    .letter:after {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .letter:before {
+        color: #fff;
+        text-shadow: -1px 0px 1px rgba(87, 255, 219, 0), 1px 0px 1px rgba(87, 255, 219, 0);
+        z-index: 3;
+        transform: rotateX(0deg) rotateY(-15deg) rotateZ(0deg);
+    }
+
+    .letter:after {
+        color: rgba(0, 0, 0, 0.11);
+        z-index: 2;
+        transform: scale(1.08, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 1deg);
+    }
+
+    .letter:hover:before {
+        color: #fafafa;
+        transform: rotateX(0deg) rotateY(-40deg) rotateZ(0deg);
+    }
+
+    .letter:hover:after {
+        transform: scale(1.08, 1) rotateX(0deg) rotateY(40deg) rotateZ(0deg) skew(0deg, 22deg);
+    }
+
+    .jede-head-style-h2 {
+        font-size: 14px;
+        font-weight: 800;
+        font-family: "Lato";
+        font-style: normal;
+        line-height: 35px;
+        margin-bottom: 1px;
+    }
 }
 
-.letter:before,
-.letter:after {
-    position: absolute;
-    content: attr(data-letter);
-    transform-origin: top left;
-    top: 0;
-    left: 0;
-}
-
-.letter,
-.letter:before,
-.letter:after {
-    transition: all 0.3s ease-in-out;
-}
-
-.letter:before {
-    color: #fff;
-    text-shadow: -1px 0px 1px rgba(87, 255, 219, 0), 1px 0px 1px rgba(87, 255, 219, 0);
-    z-index: 3;
-    transform: rotateX(0deg) rotateY(-15deg) rotateZ(0deg);
-}
-
-.letter:after {
-    color: rgba(0, 0, 0, 0.11);
-    z-index: 2;
-    transform: scale(1.08, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 1deg);
-}
-
-.letter:hover:before {
-    color: #fafafa;
-    transform: rotateX(0deg) rotateY(-40deg) rotateZ(0deg);
-}
-
-.letter:hover:after {
-    transform: scale(1.08, 1) rotateX(0deg) rotateY(40deg) rotateZ(0deg) skew(0deg, 22deg);
-}
-
-.jede-head-style-h2 {
-    font-size: 14px;
-    font-weight: 800;
-    font-family: "Lato";
-    font-style: normal;
-    line-height: 35px;
-    margin-bottom: 1px;
-}
-}
 @media (min-width: 992px) {
-    .h3section
-{padding-left: 30px; padding-right: 30px;
-    font-size: 30px;
-margin-top: 5px;margin-bottom: 5px;
-    
-}
-    .h2section 
-{font-size: 60px;
-margin-top: 5px;margin-bottom: 5px;}
-    
-   .psection
-{font-size: 17px;
-margin-top: 10px;
-margin-bottom: 30px;
-padding-right: 15px;
-    padding-left: 15px;
-   }
-    . modal-text-div
-    {width: 60%;}
+    .h3section {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .h2section {
+        font-size: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .psection {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    . modal-text-div {
+        width: 60%;
+    }
+
     .jede-image-logo {
 
-    background-image: url(logojededesign.png);
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: cover;
-}
-    
+        background-image: url(logojededesign.png);
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+    }
+
     .letter {
         display: inline-block;
         font-weight: 900;
@@ -345,9 +371,11 @@ div.foojede {
     text-align: center;
     margin-bottom: 40px;
 }
-.secondsectiondiv
-{padding-top: 200px;
-padding-bottom: 200px;}
+
+.secondsectiondiv {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 
 .containerportfolio {
     display: flex;
@@ -361,7 +389,7 @@ padding-bottom: 200px;}
 .containerportfoliomain {
     background: white;
     color: black;
-  
+
 }
 
 
@@ -406,7 +434,8 @@ padding-bottom: 200px;}
 .btn-outline:hover {
     color: #fff;
     border-color: #444343;
-    background-color: #444343;}
+    background-color: #444343;
+}
 
 .btn-xl {
     font-size: 11px;
@@ -463,155 +492,327 @@ a {
 
 /* sample*/
 
-.m-5
-{margin-top:50px;
-margin-bottom: 50px;}
+.m-5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-.pt-5
-{
+.pt-5 {
     padding-top: 50px;
 }
 
-.pb-5{
-    padding-bottom: 50px;    
+.pb-5 {
+    padding-bottom: 50px;
 }
 
-.ma
-{margin-left: auto;
-margin-right: auto;}
+.ma {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* Extra small devices (phones, up to 480px) */
-@media screen and (max-width: 767px) {
-    
-    
-    
-    
-}
+@media screen and (max-width: 767px) {}
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-}
+@media (min-width: 768px) and (max-width: 991px) {}
+
 /* tablets/desktops and up ----------- */
-@media (min-width: 992px) and (max-width: 1199px) {
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
 
 
 
 [id^=modal] {
-display: none;
-width: 100%;
-height: 100%;
-background: white;
-position: fixed;
- bottom: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    bottom: 0;
     right: 0;
     z-index: 10;
 }
 
 input[type=checkbox] {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  }
-#modal1:target {
-  display: block;
-    
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
 
-  }
+#modal1:target {
+    display: block;
+
+
+}
+
 #modal2:target {
-  display: block;
-    
-  }
+    display: block;
+
+}
+
 #modal3:target {
-  display: block;
-  }
+    display: block;
+}
 
 #modal4:target {
-  display: block;
-  }
+    display: block;
+}
 
 #modal5:target {
-  display: block;
-  }
+    display: block;
+}
+
+#modal6:target {
+    display: block;
+}
 
 #modal7:target {
-  display: block;
-  }
+    display: block;
+}
 
-#modal4:target {
-  display: block;
-  }
+#modal8:target {
+    display: block;
+}
+
+#modal9:target {
+    display: block;
+}
+
+#modal10:target {
+    display: block;
+}
+
+#modal11:target {
+    display: block;
+}
+
+#modal12:target {
+    display: block;
+}
+
+
+
+
+
+
 [id^=modal] a {
-  float: right;
-  }
+    float: right;
+}
 
-.modealimg
-{width: 80%;}
+.modealimg {
+    width: 80%;
+}
 
 .close {
-  position: fixed;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
-  opacity: 0.3;
+    position: fixed;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
     background: white;
 }
 
 .showmobile {
-  position: absolute;
-  left: 25px;
-  top: 23px;
-  width:55px;
-  height: 32px;
-  opacity: 0.5;
-  background: white;
+    position: absolute;
+    left: 25px;
+    top: 23px;
+    width: 55px;
+    height: 32px;
+    opacity: 0.5;
+    background: white;
 }
+
 .showmobile:hover {
-  position: absolute;
-  
-  opacity: 0.7;
-  background: white;
+    position: absolute;
+
+    opacity: 0.7;
+    background: white;
 }
 
 .close:hover {
     opacity: 1;
 }
-.close:before, .close:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #333;
-}
-.close:before {
-  transform: rotate(45deg);
-}
+
+.close:before,
 .close:after {
-  transform: rotate(-45deg);
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
 }
-.text-black 
-{color:black;}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.text-black {
+    color: black;
+}
 
 
-.imgportfolio1
-{
- height: 2012px;
- margin-left: auto; margin-right: auto;
- background-position:center top;
- background-repeat: no-repeat;
- background-image: url(projekty/wynajemostrow.jpg);
+.imgportfoliowynajemostrow {
+    height: 2012px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(projekty/wynajemostrow.jpg);
+    background-size: contain;
+}
+
+.imgportfoliowynajemostrowm {
+    background-image: url(projekty/wynajemostrow-mobile.jpg);
+    height: 2386px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-size: contain;
+}
+
+.imgportfoliospp {
+    height: 2512px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(projekty/spp.png);
+    background-size: contain;
+}
+
+.imgportfoliosppm {
+    background-image: url(projekty/sppmobile.png);
+    height: 3386px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
     background-size: contain;
 
 }
 
-.imgportfoliomobile1 {
-background-image: url(projekty/wynajemostrow-mobile.jpg);
-     height: 2386px;
-    margin-left: auto; margin-right: auto;
+.imgportfolio1fander {
+    height: 2012px;
+    margin-left: auto;
+    margin-right: auto;
     background-position: center top;
-background-repeat: no-repeat;
-    padding-left: auto;padding-right: auto;
-      background-size: contain;
-    
-  }
+    background-repeat: no-repeat;
+    background-image: url(projekty/fander.png);
+    background-size: contain;
+}
+
+.imgportfolio1fandermobile {
+    background-image: url(projekty/fanderm.png);
+    height: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-size: contain;
+
+}
+
+
+.imgportfolio1sakro {
+    height: 3012px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(projekty/sakrosleep.png);
+    background-size: contain;
+}
+
+.imgportfoliomobile1sakro {
+    background-image: url(projekty/sakrosleepmobile.png);
+    height: 6000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-size: contain;
+
+}
+
+
+
+.imgportfoliomost {
+    height: 3012px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(projekty/moststudio-a.png);
+    background-size: contain;
+}
+
+.imgportfoliomostmobile {
+    background-image: url(projekty/moststudiomobile.png);
+    height: 6000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-size: contain;
+
+}
+
+.imgportfoliocyclone {
+    height: 2512px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(projekty/cyclone.png);
+    background-size: contain;
+}
+
+.imgportfoliocyclonemobile {
+    background-image: url(projekty/cyclonem.png);
+    height: 2800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-size: contain;
+}
+
+.imgportfoliohoronczyk {
+    height: 2512px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(projekty/horonczyk.png);
+    background-size: contain;
+}
+
+.imgportfoliohoronczykmobile {
+    background-image: url(projekty/horonczykm.png);
+    height: 2400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-size: contain;
+}

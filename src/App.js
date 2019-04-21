@@ -8,10 +8,9 @@ import ContactForm from './contact.js'
 import ModalPortfolio from './modal.js';
 import ModalPortfolio2 from './modalv2.js';
 import janiakmeble from './projekty/janiaksklep.png'
-import spp from './projekty/sppagency.jpg'
 import moststudio from './projekty/moststudio.jpg'
-import wynajemostrow from './projekty/wynajemostrow.jpg'
-import wynajemostrowmobile from './projekty/wynajemostrow-mobile.jpg'
+
+
 
 
 
@@ -21,11 +20,14 @@ class App extends Component {
     return (
       <div className="App">
         <ModalPortfolio modalid={"modal1"} modaltextheader={"Janiak Meble"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} ahref={janiakmeble}/>     
-        <ModalPortfolio modalid={"modal2"} modaltextheader={"SPP"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} ahref={spp} />     
-        <ModalPortfolio  modalid={"modal3"} modaltextheader={"Most"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} ahref={moststudio} />  
-        
-        <ModalPortfolio2  modalid={"modal4"} modaltextheader={"Wynajem Ostrów"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />  
-        <ModalPortfolio2  modalid={"modal5"} modaltextheader={"Sakro Sleep"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />  
+        <ModalPortfolio2 projectimgspec={"imgportfoliospp"} projectimgspecm={"imgportfoliosppm"}modalid={"modal2"} modaltextheader={"Spp"} modaltext={"Projekt storyn internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />         
+         <ModalPortfolio2 projectimgspec={"imgportfoliomost"} projectimgspecm={"imgportfoliomostmobile"}modalid={"modal3"} modaltextheader={"Most"} modaltext={"Projekt strony internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />              
+        <ModalPortfolio2 projectimgspec={"imgportfoliowynajemostrow"} projectimgspecm={"imgportfoliowynajemostrowm"} modalid={"modal4"} modaltextheader={"Wynajem Ostrów"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />  
+        <ModalPortfolio2 projectimgspec={"imgportfolio1sakro"} projectimgspecm={"imgportfoliomobile1sakro"}modalid={"modal5"} modaltextheader={"Sakro Sleep"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />         
+          <ModalPortfolio2 projectimgspec={"imgportfolio1fander"} projectimgspecm={"imgportfolio1fandermobile"}modalid={"modal6"} modaltextheader={"Fander"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} /> 
+          <ModalPortfolio2 projectimgspec={"imgportfoliocyclone"} projectimgspecm={"imgportfoliocyclonemobile"}modalid={"modal7"} modaltextheader={"Cyclone"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />
+        <ModalPortfolio2 projectimgspec={"imgportfoliohoronczyk"} projectimgspecm={"imgportfoliohoronczykmobile"}modalid={"modal8"} modaltextheader={"Horonczyk"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} /> 
+       
        
         
     
