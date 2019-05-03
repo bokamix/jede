@@ -31,6 +31,11 @@ class ModalPortfolio3 extends Component {
     );
   }
 }
+
+window.onhashchange = function() {
+document.getElementsByTagName("BODY")[0].style.overflow = "auto";
+}
+
       function bodyChanger2()
     {
      document.getElementsByTagName("BODY")[0].style.overflow = "auto";

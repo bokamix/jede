@@ -18,9 +18,7 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
 }
-a:visited{
-    color: black;
-}
+
 .containercenter a
 {color: white;}
 .containerportfolioid a 

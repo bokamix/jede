@@ -22,7 +22,9 @@ class ModalPortfolio extends Component {
      document.getElementsByTagName("BODY")[0].style.overflow = "auto";
     }
 
-
+window.onhashchange = function() {
+document.getElementsByTagName("BODY")[0].style.overflow = "auto";
+}
 
 
 export default ModalPortfolio;
