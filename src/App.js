@@ -19,8 +19,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ModalPortfolio modalid={"modal1"} modaltextheader={"Janiak Meble"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} ahref={janiakmeble}/>     
-        <ModalPortfolio2 projectimgspec={"imgportfoliospp"} projectimgspecm={"imgportfoliosppm"}modalid={"modal2"} modaltextheader={"Spp"} modaltext={"Projekt storyn internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />         
+        <ModalPortfolio modalid={"modal1"} modaltextheader={"Janiak Meble"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress."} ahref={janiakmeble}/>     
+        <ModalPortfolio2 projectimgspec={"imgportfoliospp"} projectimgspecm={"imgportfoliosppm"}modalid={"modal2"} modaltextheader={"Spp"} modaltext={"Strona agencji modelingowej stworzona w technologii Wordpress."} />         
          <ModalPortfolio2 projectimgspec={"imgportfoliomost"} projectimgspecm={"imgportfoliomostmobile"}modalid={"modal3"} modaltextheader={"Most"} modaltext={"Projekt strony internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />              
         <ModalPortfolio2 projectimgspec={"imgportfoliowynajemostrow"} projectimgspecm={"imgportfoliowynajemostrowm"} modalid={"modal4"} modaltextheader={"Wynajem Ostrów"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />  
         <ModalPortfolio2 projectimgspec={"imgportfolio1sakro"} projectimgspecm={"imgportfoliomobile1sakro"}modalid={"modal5"} modaltextheader={"Sakro Sleep"} modaltext={"Projekt sklepu internetowego stworzony w technologii Wordpress. Stworzenie i optymalizacja wyglądu strony."} />         
