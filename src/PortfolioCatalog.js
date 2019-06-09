@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import CardPort from './cardportfolio.js';
 
-import janiakmeble from './projekty/imgprojectview/janiakview.jpg'
-import spp from './projekty/imgprojectview/sppview.jpg'
-import wynajemostrow from './projekty/imgprojectview/wynajemview.jpg'
-import moststudio from './projekty/imgprojectview/mostview.jpg'
-import sakrosleep from './projekty/imgprojectview/sakroview.jpg'
-import fander from './projekty/imgprojectview/fanderview.jpg'
-import cyclone from './projekty/imgprojectview/cycloneview.jpg'
-import horonczyk from './projekty/imgprojectview/kanceview.jpg'
-import m4y from './projekty/imgprojectview/m4yview.jpg'
+import janiakmeble from './projekty/imgprojectview/janiakview.jpg';
+import spp from './projekty/imgprojectview/sppview.jpg';
+import wynajemostrow from './projekty/imgprojectview/wynajemview.jpg';
+import moststudio from './projekty/imgprojectview/mostview.jpg';
+import sakrosleep from './projekty/imgprojectview/sakroview.jpg';
+import fander from './projekty/imgprojectview/fanderview.jpg';
+import cyclone from './projekty/imgprojectview/cycloneview.jpg';
+import horonczyk from './projekty/imgprojectview/kanceview.jpg';
+import m4y from './projekty/imgprojectview/m4yview.jpg';
+import jedefy from './projekty/jedefy.PNG';
 
 
 
@@ -43,6 +44,13 @@ class PortfolioEl extends Component {
          <a onClick={bodyChanger} href="#modal8"><div className="itemcatalog"><CardPort name={"Horonczyk"} ahref={horonczyk} projekt={"Horonczyk"} /></div></a>
          <a onClick={bodyChanger} href="#modal5"><div className="itemcatalog"><CardPort name={"sakrosleep"} ahref={sakrosleep} projekt={"Sakro Sleep"} /></div></a>
          <a onClick={bodyChanger} href="#modal4"><div className="itemcatalog"><CardPort name={"Wynajem ostrów"} ahref={wynajemostrow} projekt={"wynajem"} /></div></a>
+         <a onClick={bodyChanger} 
+         href="#modal9"><div 
+         className="itemcatalog"><CardPort 
+         name={"Jedefy"} 
+         ahref={jedefy} 
+         projekt={"Odtwarzacz internetowy w React JS"} /></div></a>
+
         <div className="itemcatalog"><CardPort name={"M4Y"} ahref={m4y} projekt={"M4Y"} /></div>
       
      
@@ -70,6 +78,7 @@ class PortfolioEl extends Component {
     document.getElementById("modal6").style.overflow = "auto";
     document.getElementById("modal7").style.overflow = "auto";
     document.getElementById("modal8").style.overflow = "auto";
+    document.getElementById("modal9").style.overflow = "auto";
     }
    
 

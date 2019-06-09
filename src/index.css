@@ -819,3 +819,30 @@ input[type=checkbox] {
     padding-right: auto;
     background-size: contain;
 }
+
+.imgportfoliojedefymobile {
+    background-image: url(projekty/jedefymobile.PNG);
+    margin-left: auto;
+    margin-right: auto;    
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-size: auto;
+    background-position: top center;
+    height: 1000px;
+}
+
+
+.imgportfoliojedefy {
+    background-image: url(projekty/jedefy.PNG);
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+   background-size: auto;
+    background-repeat: no-repeat;
+    padding-left: auto;
+    padding-right: auto;
+    background-position: top;
+
+
+}
